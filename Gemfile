@@ -21,6 +21,16 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'ckeditor'
+
+group :test do
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
+  gem 'capybara-screenshot'
+  gem 'launchy'
+  gem 'capybara'
+  gem 'capybara-webkit'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
